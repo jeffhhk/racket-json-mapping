@@ -25,7 +25,8 @@
 ;;  - More exhaustive test cases.
 ;;  - Documentation.
 
-(require (for-syntax (only-in unstable/sequence in-syntax)))
+(require (for-syntax scheme/base))
+(require (for-syntax racket/sequence))
 (require (for-syntax racket/syntax))
 
 (require racket/format)
